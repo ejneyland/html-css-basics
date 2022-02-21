@@ -1,0 +1,26 @@
+h1 {
+    color: purple;
+    font-size: 80px;
+}
+h2 {
+    color: greenyellow;
+    font-size: 60px;
+}
+h3 {
+    color:aquamarine;
+    font-size: 40px;
+}
+#about-me {
+    color: green;
+}
+/* Use a comma. e.g. p, #about-me in order to specify a particular element. No comma means 'child of', e.g. ul li:nth-child(2) second child in the list */
+ul li:nth-child(3) {
+    color: red;
+}
+ul li:nth-child(1) {
+    color: blue;
+}
+#elements {
+    color: pink;
+    font-size: 40px;
+}
